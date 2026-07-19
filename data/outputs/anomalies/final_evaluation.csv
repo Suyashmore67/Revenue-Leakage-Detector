@@ -1,0 +1,5 @@
+detector,flags,true_positives,false_positives,false_negatives,precision,recall,f1_score
+L1_discount_abuse,2798,179,2619,21,0.064,0.895,0.119
+L2_refund_spike,91,10,41,2,0.196,0.833,0.317
+L3_silent_churn,13713,0,13713,299,0.0,0.0,0.0
+L4_short_lifecycle,2718,98,88203,2,0.001,0.98,0.002

@@ -1,0 +1,9 @@
+table,column,issue,pct_affected,note
+orders,order_approved_at,nulls,0.16,0.2% of rows are null
+orders,order_delivered_carrier_date,nulls,1.79,1.8% of rows are null
+orders,order_delivered_customer_date,nulls,2.98,3.0% of rows are null
+orders,order_delivered_customer_date,logical inconsistency,0.01,8 orders marked delivered but have no delivery date
+orders,order_delivered_customer_date,impossible date,0.0,0 orders delivered before they were purchased
+order_payments,payment_value,zero value,0.01,9 payment rows with value = 0
+order_items,price,zero or negative price,0.0,0 items with price <= 0
+orders,order_id,duplicates,0.0,0 duplicate order_ids found

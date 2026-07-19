@@ -1,0 +1,11 @@
+year_week,category,revenue_gap,z_score,root_cause_state,root_cause_seller,seller_cancel_rate,recommended_action
+2018-W35,health_beauty,18268.44,-4.21,SP,955fee9216a65b617aa5c0531780ce60,0.0,Investigate seller 955fee92 in SP — cancel rate 0.0% in health_beauty during 2018-W35
+2018-W35,watches_gifts,8832.2,-3.26,SP,fa1c13f2614d7b5c4749cbc52fecda94,0.0,Investigate seller fa1c13f2 in SP — cancel rate 0.0% in watches_gifts during 2018-W35
+2018-W35,bed_bath_table,8001.91,-3.11,SP,4a3ca9315b744ce9f8e9374361493884,100.0,Investigate seller 4a3ca931 in SP — cancel rate 100.0% in bed_bath_table during 2018-W35
+2018-W35,sports_leisure,4861.82,-2.88,SP,0be8ff43f22e456b4e0371b2245e4d01,0.0,Investigate seller 0be8ff43 in SP — cancel rate 0.0% in sports_leisure during 2018-W35
+2018-W35,perfumery,3958.69,-4.43,SP,0951a6e282947e09cd47969f4ed0b47f,0.0,Investigate seller 0951a6e2 in SP — cancel rate 0.0% in perfumery during 2018-W35
+2017-W27,perfumery,1990.47,-3.68,SP,a1ed30492b3b798bc121845bc4aa7366,100.0,Investigate seller a1ed3049 in SP — cancel rate 100.0% in perfumery during 2017-W27
+2017-W25,telephony,1672.84,-7.29,SP,db4350fd57ae30082dec7acbaacc17f9,0.0,Investigate seller db4350fd in SP — cancel rate 0.0% in telephony during 2017-W25
+2017-W24,furniture_decor,1556.9,-2.94,SP,87f3e35268860433e13d577825aada95,100.0,Investigate seller 87f3e352 in SP — cancel rate 100.0% in furniture_decor during 2017-W24
+2018-W35,stationery,1388.88,-2.68,SP,6edacfd9f9074789dad6d62ba7950b9c,0.0,Investigate seller 6edacfd9 in SP — cancel rate 0.0% in stationery during 2018-W35
+2017-W25,unknown,647.45,-2.62,unknown,unknown,0.0,Investigate seller unknown in unknown — cancel rate 0% in unknown during 2017-W25
