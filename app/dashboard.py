@@ -45,9 +45,9 @@ with st.sidebar:
 
     st.divider()
     st.markdown(
-        "Built by [Your Name] · "
-        "[GitHub](https://github.com/yourusername/"
-        "revenue-leakage-detector)"
+        "Built by Suyash More."
+        "[GitHub](https://github.com/Suyashmore67/revenue-leakage-detector)"
+        "(revenue-leakage-detector)"
     )
 
 # ── Render selected page ──────────────────────────────────────
