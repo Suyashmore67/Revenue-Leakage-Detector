@@ -167,12 +167,43 @@ The web dashboard (`app/dashboard.py`) acts as the front-end interface of the pi
 *   **Headline KPIs:** 4 metrics showcasing Total Revenue at Risk, Active Flags, Most Impacted Category, and Worst Revenue Week.
 *   **Monthly Revenue Trend:** Interactive Plotly chart mapping monthly gross sales against a 3-month rolling average.
 *   **Revenue Breakdown:** Horizontal bar charts classifying financial risk by leakage type to prioritize operational responses.
+*   **Top Categories at Risk:** Ranked table of categories by cancel rate, revenue, and order volume for quick prioritization.
+
+<p align="center">
+  <img src="Screenshots/Executive-summary-dashboard.png" alt="Executive Summary Dashboard" width="800"/>
+</p>
+
+*Executive Summary — KPI cards for total revenue at risk, active flags, and the worst-hit category/week, plus monthly revenue vs. a 3-month average and leakage-type breakdown.*
+
+<p align="center">
+  <img src="Screenshots/Top-Risk-Categories.png" alt="Top Categories at Risk" width="700"/>
+</p>
+
+*Top Categories at Risk — categories ranked by cancel rate so ops can focus on the highest-impact segments first.*
 
 ### 2. Analyst Drill-Down Page
 *   **Performance Scorecards:** Visual tracker highlighting the recall percentage of each active detector.
 *   **Interactive Category Timeline:** Allows analysts to select any category and view a timeline of actual revenue vs. baseline, shaded with a normal standard deviation boundary band, overlaying exact anomaly flag markers.
 *   **Revenue Anomaly Heatmap:** A bird's-eye view mapping Z-score drops across top categories and weeks to spot platform-wide drops.
 *   **Root Cause Analysis Panel:** An interactive selector. The analyst clicks a flagged category-week and the UI instantly displays the root-cause region, the specific seller ID with their weekly cancellation rate, and a recommended operational fix.
+
+<p align="center">
+  <img src="Screenshots/analyst-drilldown-dashboard.png" alt="Analyst Drill-Down Dashboard" width="800"/>
+</p>
+
+*Analyst Drill-Down — detector recall scorecards and an interactive category timeline comparing actual revenue to the expected baseline, with anomaly flags marked.*
+
+<p align="center">
+  <img src="Screenshots/Revenue-anomaly-heatmap.png" alt="Revenue Anomaly Heatmap" width="800"/>
+</p>
+
+*Revenue Anomaly Heatmap — Z-score view across category-weeks; red cells highlight revenue significantly below baseline.*
+
+<p align="center">
+  <img src="Screenshots/Root-cause-analysis.png" alt="Root Cause Analysis" width="800"/>
+</p>
+
+*Root Cause Analysis — select a flagged category-week to surface the top region, problem seller, and a plain-text recommended action.*
 
 ---
 
@@ -243,6 +274,12 @@ streamlit run app/dashboard.py
 ├── requirements.txt                # Required python libraries
 ├── README.md                       # Documentation
 ├── Revenue_Leakage_Project_Guide.docx  # Detailed project guide doc
+├── Screenshots/                    # Dashboard UI captures for README
+│   ├── Executive-summary-dashboard.png
+│   ├── Top-Risk-Categories.png
+│   ├── analyst-drilldown-dashboard.png
+│   ├── Revenue-anomaly-heatmap.png
+│   └── Root-cause-analysis.png
 ├── app/                            # Streamlit Web Application
 │   ├── dashboard.py                # Main app entry point
 │   ├── data_loader.py              # Streamlit cache and data utilities
